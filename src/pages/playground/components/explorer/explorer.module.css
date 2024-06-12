@@ -1,0 +1,67 @@
+.padding {
+  color: #a9a9a9;
+  padding-left: 10px;
+}
+
+.folderStyle {
+  margin: 6px;
+  margin-bottom: 0;
+  cursor: pointer;
+
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.folderStyle svg {
+  width: 1.2em;
+  height: 1.2em;
+}
+
+.fileStyle {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+  /* margin: 5px; */
+  padding: 5px;
+  align-items: center;
+  width: fit-content;
+}
+
+.contextMenu {
+  background-color: #262525;
+  padding: 10px;
+  border-radius: 8px;
+}
+.contextMenu ul {
+  list-style-type: none;
+  padding: 0;
+}
+.contextMenu ul li {
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.contextMenu ul li:hover {
+  background-color: #3a3a3a;
+}
+.newFolder {
+  padding-left: inherit;
+  display: flex;
+  margin: 5px;
+}
+.newFolder svg {
+  width: 18px;
+  height: 18px;
+  margin-right: 3px;
+}
+.newFolder input {
+  background-color: transparent;
+  outline: none;
+  color: #a9a9a9;
+  border: none;
+  border: solid 1px #474747;
+  width: 100%;
+  border-radius: 3px;
+  padding: 2px;
+}

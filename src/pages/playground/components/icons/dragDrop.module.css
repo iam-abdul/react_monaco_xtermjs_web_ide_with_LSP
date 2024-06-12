@@ -1,0 +1,22 @@
+.dropArea {
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px;
+  font-style: italic;
+  width: 16px;
+  overflow: hidden;
+  color: #a9a9a9;
+}
+
+.dropAreaVisible {
+  background-color: #212121;
+  width: fit-content;
+  white-space: nowrap;
+  /* padding: 5px; */
+}
+
+.isLast {
+  width: 100%;
+}
